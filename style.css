@@ -21,6 +21,7 @@
     --rating-text-color: #76878f;
     --offer-text-color: #EBC80C;
     --inactive-text-color: #5f6c72;
+    --gray-text-color: #5f6c72;
     --acitve-text-color: #000;
     --white-color: #fff;
     --black-color: #000;
@@ -302,6 +303,50 @@ a, li, p {
     font-size: 2.4rem;
 }
 
+.nav-container-4 {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    margin-bottom: 2rem;
+}
+
+.nav-container-4 .services-navbar-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services-navbar-content .services-navbar-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.services-navbar-content .fa-solid {
+    margin-right: 1rem;
+    font-size: 2.4rem;
+}
+
+.services-navbar-content .active {
+    color: var(--black-color);
+    background-color: var(--hero-bg-color);
+    padding: 1.5rem 3rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.services-navbar-left a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--gray-text-color);
+    font-size: 1.4rem;
+}
+
+.navbar-contact p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* Hero Section */
 
 .hero-content {
@@ -427,7 +472,7 @@ a, li, p {
 .righttop-product-images {
     width: 16rem;
     position: relative;
-    top: 2.8rem;
+    top: 3rem;
     left: 1.4rem;
     display: flex;
 }
