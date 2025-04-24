@@ -796,3 +796,64 @@ a, li, p {
     font-weight: 600;
     color: var(--tertiary-text-color);
 }
+
+/* Shop Categorys Section */
+
+.categorys-heading {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.categorys-card-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 3rem 0;
+    gap: 2rem;
+}
+
+.categorys-cards {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 2rem;
+    width: 23rem;
+    height: auto;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.category-card-title {
+    text-align: center;
+    text-transform: capitalize;
+    margin: 1rem 0;
+}
+
+.left-arrow-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: -2rem;
+    top: 40%;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: var(--secondary-btn-bg-color);
+    padding: 2.5rem;
+    border-radius: 50%;
+    color: white;
+}
+
+.right-arrow-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: -2rem;
+    top: 40%;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: var(--secondary-btn-bg-color);
+    padding: 2.5rem;
+    border-radius: 50%;
+    color: white;
+}
