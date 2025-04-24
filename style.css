@@ -647,6 +647,11 @@ a, li, p {
 .bestdeal-offers-content .countdown {
     background-color: var(--countdown-bg-color);
     padding: 0.6rem 1.2rem;
+    width: 19rem;
+}
+
+.countdown .flex {
+    gap: 0.2rem;
 }
 
 .couter-box .counter-heading{
@@ -663,7 +668,7 @@ a, li, p {
 }
  #first-product-content {
     width: 360px;   
-    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
     padding: 2.5rem;
     line-height: 1.5;
 }
@@ -777,6 +782,14 @@ a, li, p {
 
 .bestdeal-card-description .normal {
     margin: 1rem 0;
+}
+
+.bestdeal-card-price .normal {
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-decoration: line-through;
+    margin-right: 0.5rem;
+    color: var(--gray-text-color);
 }
 
 .bestdeal-card-description .normal-bold {
