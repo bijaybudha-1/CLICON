@@ -1058,6 +1058,7 @@ a, li, p {
     padding: 2rem;
     border-radius: 0.4rem;
     margin: 3rem 0;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 
 .advertise-description .gray-text{
@@ -1108,4 +1109,53 @@ a, li, p {
 .bg-black {
     background-color: var(--black-color);
     color: var(--white-color);
+}
+
+
+/* Macbook pro Advertise Area Section */
+.macbook-card {
+    justify-content: space-between;
+    padding: 2rem 5rem;
+    align-items: center;
+    height: auto;
+    background-color: #FFE7D6;
+}
+
+.macbook-description {
+    width: 43rem;
+}
+
+.macbook-description .heading {
+    font-weight: 400;
+}
+
+.macbook-description .sub-heading {
+    font-weight: 400;
+}
+
+.macbook-card .advertise-area-right {
+    position: relative;
+    height: 35rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.macbook-card img {
+    height: 40rem;
+    width: 100%;
+}
+
+.macbook-price {
+    height: 11rem;
+    width: 11rem;
+    border-radius: 50%;
+    background-color: #FFCEAD;
+    border: 0.7rem solid #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
