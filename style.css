@@ -1041,3 +1041,71 @@ a, li, p {
     font-weight: 600;
     margin-left: 0.5rem;
 }
+
+/* New Product Launced Advertise Area Section */
+.advertise-area-content {
+    display: flex;
+    gap: 5rem;
+}
+
+.advetise-area-card {
+    width: 100%;
+    height: 34rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--hero-bg-color);
+    padding: 2rem;
+    border-radius: 0.4rem;
+    margin: 3rem 0;
+}
+
+.advertise-description .gray-text{
+    color: var(--gray-text-color);
+}
+.advertise-description .text-white{
+    color: #ADB7BC;
+}
+
+.advertise-description .sub-heading {
+    margin: 1rem 0;
+    font-weight: 600;
+}
+
+.bottom-attached {
+    width: inherit;
+    height: inherit;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+.bottom-attached img {
+    position: relative;
+    bottom: -2rem;
+}
+
+.advertise-btn {
+    margin: 2rem 0 1rem 0;
+}
+
+.bg-blue {
+    background-color: var(--bestdeal-bg-color);
+    color: var(--white-color);
+    padding: 0.5rem 1rem;
+    width: fit-content;
+    border-radius: 0.2rem;
+    margin-bottom: 1rem;
+}
+.bg-yellow {
+    background-color: var(--offer-batch-bg-color);
+    color: var(--black-color);
+    width: fit-content;
+    border-radius: 0.2rem;
+    margin-bottom: 1rem;
+}
+
+.bg-black {
+    background-color: var(--black-color);
+    color: var(--white-color);
+}
