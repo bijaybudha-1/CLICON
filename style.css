@@ -72,7 +72,7 @@ a, li, p {
 
 .sub-heading {
     font-size: 3.2rem;
-    font-size: 700;
+    font-size: 700; 
 }
 
 .heading {
@@ -219,6 +219,35 @@ a, li, p {
     color: var(--white-color);
     margin-left: 0.3rem;
     font-size: 1.6rem
+}
+
+
+.product-rating-content {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured-product-card .product-rating-content {
+    justify-content: flex-start;
+    margin-bottom: 0.5rem;
+}
+
+.product-rating-content .rating-star .fa-star {
+    color: var(--quaternary-text-color);
+    font-size: 1.2rem;
+}
+
+.product-rating-content .rating-count .normal {
+    font-size: 1.2rem;
+    color: var(--rating-text-color);
+}
+
+.product-price .price {
+    color: var(--tertiary-text-color);
+    font-size: 1.4rem;
+    font-weight: 600;
 }
 
 .rating-star .fa-star {
@@ -447,7 +476,7 @@ a, li, p {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-.hero-title {
+.bestdeal-count .hero-title {
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -856,4 +885,159 @@ a, li, p {
     padding: 2.5rem;
     border-radius: 50%;
     color: white;
+}
+
+/* Featured Product Section */
+.computer-accessories-card {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    width: 33rem;
+    height: fit-content;
+    background-color: var(--countdown-bg-color);
+}
+
+.featured-product-content {
+    display: flex;
+}
+
+.featured-product-title {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.featured-product-content {
+    width: 100%;
+    height: auto;
+    gap: 2rem;
+}
+
+.featured-product-navbarlist a {
+    text-transform: capitalize;
+    color: var(--gray-text-color);
+    margin-left: 1rem;
+}
+
+.featured-product-navbarlist .active {
+    color: var(--black-color);
+    border-bottom: 0.3rem solid var(--quaternary-text-color);
+    padding: 0 1rem;
+}
+
+.featured-product-navbar-logo .heading {
+    font-weight:  500;
+}
+
+.featured-product-title .normal {
+    color: var(--quinary-text-color);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.featured-product-title .sub-text {
+    margin-top: 1rem;
+    font-weight: 400;
+    color: var(--gray-text-color);
+}
+
+.featured-product-title .normal-bold {
+    margin: 1rem;
+}
+
+.featured-product-title .normal-bold span {
+    background-color: var(--white-color);
+    padding: 0.6rem 1.2rem;
+}
+
+.computer-accessories-card .featured-product-btn {
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.computer-accessories-card .featured-offer-images {
+    position: relative;
+    top: 0.5rem;
+    left: 0;
+}
+
+.computer-accessories-card .featured-offer-images img {
+    width: 100%;
+}
+
+.featured-product-navbar-logo .sub-heaing {
+    color: var(--black-color);
+}
+
+.featured-product-navbar-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.featured-product-navbar {
+    width: 100%;
+    padding: 0 2rem;
+}
+
+.featured-column-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.featured-product-navbar .flex {
+    justify-content: space-between;
+}
+
+.featured-product-browser-btn .hero-title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--quaternary-text-color);
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.featured-product-card {
+    width: 23rem;
+    height: 32.5rem;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 0.3rem;
+    padding: 1rem;
+}
+
+.featured-product-images {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.product-description {
+    margin: 1rem 0;
+}
+
+.featured-product-card-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+
+.product-price .sub-text {
+    font-size: 1.4rem;
+    color: var(--gray-text-color);
+    text-decoration: line-through;
+    font-weight: 400;
+}
+.product-price .text {
+    font-size: 1.4rem ; 
+    color: var(--tertiary-text-color);
+    font-weight: 600;
+    margin-left: 0.5rem;
 }
