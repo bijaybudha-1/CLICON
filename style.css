@@ -1302,3 +1302,77 @@ a, li, p {
 .latest-news-btn {
     margin: 0.5rem  2rem 2rem;
 }
+
+/* Subscribe newsletter section */
+
+.subscribe-newsletter-section {
+    width: 100%;
+    background-color: var(--navbar-bg-color);
+    padding: 4rem;
+}
+
+.subscribe-newsletter-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-newletter-card {
+    width: 60rem;
+}
+
+.subscribe-newsletter-description {
+    
+    text-align: center;
+}
+
+.subscribe-newsletter-description .sub-heading {
+    color: var(--white-color);
+    font-weight: 600;
+}
+
+.subscribe-newsletter-description .sub-text {
+    color: var(--white-color);
+    font-weight: 400;
+    margin: 2rem 0;
+}
+
+.subscribe-email-content {
+    width: 60rem;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.subscribe-email-content input {
+    width: inherit;
+    padding: 2rem;
+    border-radius: 0.2rem;
+    border: none;
+}
+
+.subscribe-email-content input:focus {
+    outline: none;
+}
+
+.primary-shop-btn {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(-10%, -50%);
+}
+
+.subscribe-email-content button {
+    color: var(--white-color);
+    font-size: 1.4rem;
+    font-family: 700;
+}
+
+.supported-company-content {
+    border-top: 0.1rem solid var(--gray-text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 3rem;
+}
