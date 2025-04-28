@@ -1376,3 +1376,136 @@ a, li, p {
     gap: 3rem;
     margin-top: 3rem;
 }
+
+/* Footer Section */
+
+
+.footer-section {
+    background-color: var(--black-color);
+    padding: 10rem 5rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content .first-card {
+    max-width: 32rem;
+}
+
+.footer-logo .outer-circle {
+    width: 4.8rem;
+    height: 4.8rem;
+    border-radius: 50%;
+    background-color: var(--quaternary-text-color);
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.footer-logo .inner-circle {
+    width: 2.4rem;
+    height: 2.4rem;
+    background-color: var(--quaternary-text-color);
+    border: 0.4rem solid var(--black-color);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer-logo .sub-heading {
+    margin-left: 1rem;
+}
+
+.footer-logo-description .text {
+    font-weight: 500;
+    color: var(--white-color);
+    margin: 1rem;
+}
+.footer-logo-description .normal {
+    font-weight: 400;
+    color: #77878F;
+    margin: 1rem;
+}
+
+.footer-logo-description .sub-text {
+    font-weight: 400;
+    font-size: 1.6rem;
+    margin: 1rem;
+    color: #77878F;
+}
+
+.footer-logo-description .bold-email {
+    color: var(--white-color);
+    font-weight: 500;
+}
+
+.footer-card {
+    color: var(--white-color);
+}
+
+.second-card .categroy-list .attached-line {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 1rem;
+}
+
+.second-card .categroy-list .yellow-line {
+    display: block;
+    width: 3rem;
+    border: 0.1rem solid var(--offer-batch-bg-color);
+    height: 0.1rem;
+}
+
+.categroy-list li{
+    color: var(--gray-text-color);
+}
+
+.footer-heading .sub-text {
+    color: var(--white-color);
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.categroy-list .yellow-text, .categroy-list i {
+    color: var(--offer-text-color);
+    margin-right: 0.5rem;
+}
+
+.categroy-list .hero-title {
+    color: var(--white-color);
+}
+
+
+.fourth-card .footer-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.fifth-card .popular-tags {
+    display: flex;
+    width: 32rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.fifth-card .popular-tags .normal-bold{
+    color: var(--white-color);
+    border: 0.2rem solid var(--gray-text-color);
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    /* margin: 0.4rem; */
+    border-radius: 0.2rem;
+}
+
+.popular-tags #highlight-tags {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 0.2rem solid var(--white-color);
+}
