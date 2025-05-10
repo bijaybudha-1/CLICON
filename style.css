@@ -609,6 +609,7 @@ a, li, p {
 
 .righttop-product-images img {
     height: 18rem;
+    animation: imageScale 1s linear;
 }
 
 .righttop-product-images .sub-text {
@@ -1355,7 +1356,7 @@ a, li, p {
     outline: none;
 }
 
-.primary-shop-btn {
+.subscribe-email-content .primary-shop-btn {
     position: absolute;
     top: 50%;
     right: 0%;
